@@ -52,11 +52,12 @@ def happybirthday():
 
 a = input(str("What is your name? "))
 
-if a == "violet":
+if a == "example":
     happybirthday()
-
-elif a == "Violet":
+#SET YOUR NAME!! ^
+elif a == "Example":
     happybirthday()
+#SET YOUR NAME!! ^
 
 else:
     print("Its not your birthday yet.")
