@@ -1,4 +1,4 @@
-#===================FURRO404===================#
+#=====================FURRO404=====================#
 import random
 import time
 from os import system, name
@@ -6,7 +6,7 @@ from termcolor import *
 from colorama import *
 from playsound import playsound
 init()
-#-----------------------------#
+#-------------------------#
 def clear():
     system("cls")
     
@@ -52,14 +52,13 @@ def happybirthday():
 
 a = input(str("What is your name? "))
 
-if a == "example":
+if a == "violet":
     happybirthday()
-#SET YOUR NAME!! ^
-elif a == "Example":
+
+elif a == "Violet":
     happybirthday()
-#SET YOUR NAME!! ^
 
 else:
     print("Its not your birthday yet.")
     time.sleep(3)
-#===================FURRO404===================#
+#=====================FURRO404=====================#
